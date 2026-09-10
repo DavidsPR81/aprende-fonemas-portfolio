@@ -1,1 +1,1 @@
-App educativa de conciencia fonológica para niños de 3–7 años (React Native + Expo SDK 54).
+Aprende Fonemas — app educativa (React Native + Expo). Portfolio de código; audio e ilustraciones de producto no incluidos.

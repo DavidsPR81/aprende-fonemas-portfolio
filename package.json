@@ -1,17 +1,20 @@
 {
-  "name": "aprende-fonemas",
+  "name": "aprende-fonemas-portfolio",
   "version": "1.0.0",
-  "description": "Repositorio del proyecto Aprende Fonemas — app educativa de conciencia fonológica",
+  "description": "Portfolio público de Aprende Fonemas (código). Assets de audio/imagen de producto no incluidos.",
   "private": true,
   "scripts": {
     "start": "npm start --prefix AprendeFonemasApp",
-    "convert": "md-to-pdf docs/archivo/Guia_Completa_App_Conciencia_Fonologica.md"
+    "test": "npm test --prefix AprendeFonemasApp"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "md-to-pdf": "^5.2.5"
-  }
+  "keywords": [
+    "react-native",
+    "expo",
+    "education",
+    "phonological-awareness",
+    "android"
+  ],
+  "author": "David · Aprende Fonemas",
+  "license": "UNLICENSED",
+  "type": "commonjs"
 }

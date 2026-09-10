@@ -1,43 +1,44 @@
 # Aprende Fonemas
 
-App de conciencia fonológica para niños de **3 a 7 años** (español de España).
+App educativa de **conciencia fonológica** para niños de 3–7 años (español de España).
 
 Sesiones cortas: fonemas, letras, dibujos, sílabas, rimas, fusión de sonidos y primeras frases. Pensada para casa y aula.
 
-**Sin publicidad · Offline · Sin registro · Freemium** (niveles 1–4 gratis · 5–12 Premium, pago único)
-
-Stack: React Native + Expo SDK 54 · Android · móvil, tablet y landscape
+| | |
+|---|---|
+| Modelo | Freemium · niveles 1–4 gratis · 5–12 Premium (pago único) |
+| Privacidad | Sin publicidad · Offline · Sin registro de cuenta |
+| Stack | React Native · Expo SDK 54 · Android (móvil, tablet, landscape) |
+| Tienda | [Google Play](https://play.google.com/store/apps/details?id=com.davidspr81.aprendefonemas) |
+| Web | [aprendefonemas.netlify.app](https://aprendefonemas.netlify.app) |
 
 ---
 
-## Este repositorio (portfolio)
+## Sobre este repositorio
 
-Es una copia **pública de código** para recruiters y portfolio.
+Copia **pública de código** para portfolio y revisión técnica (recruiters / hiring).
 
-| Incluye | No incluye |
-|---------|------------|
-| Código fuente, tests, docs de producto | Audios MP3 (licencia comercial) |
-| Landing (HTML/CSS) | Ilustraciones de palabras / mascota |
-| Icono de marca | Keystores, `.env`, credenciales EAS |
+El desarrollo, builds EAS y assets de producto viven en un **repositorio privado**. Clonar esto **no** da un build jugable completo.
+
+### Política de assets y secretos
+
+| Publicado aquí | No publicado (a propósito) |
+|----------------|----------------------------|
+| Código fuente, tests, docs de producto | Audios `.mp3` (voz / contenido comercial) |
+| Landing HTML/CSS | Ilustraciones de palabras, frases y mascota |
+| Icono / splash de marca | Keystores, `.env`, credenciales EAS / Play |
 | LICENSE | Historial del repo privado de producción |
 
-La app publicada está en Google Play:  
-https://play.google.com/store/apps/details?id=com.davidspr81.aprendefonemas
-
-Landing: https://aprendefonemas.netlify.app
-
-> Clonar este repo **no** reproduce un build jugable completo: faltan a propósito los assets de producto. Sirve para revisar arquitectura, UX y lógica.
-
-El desarrollo y los builds reales viven en un **repo privado**.
+Los registries (`audioRegistry`, `imageRegistry`, `mascotRegistry`) son **stubs vacíos**. El `.gitignore` bloquea MP3/MP4 y carpetas de contenido si alguien intenta añadirlos por error.
 
 ---
 
-## Qué puedes mirar
+## Qué mirar en el código
 
-- `AprendeFonemasApp/src/` — pantallas, ejercicios, progreso, IAP Premium
+- `AprendeFonemasApp/src/` — pantallas, motor de ejercicios, progreso, IAP Premium
 - `AprendeFonemasApp/__tests__/` — tests de contenido y calidad pedagógica
 - `landing/` — web de producto
-- `docs/` — guía de lanzamiento y notas
+- `docs/` — notas de lanzamiento
 
 ```bash
 cd AprendeFonemasApp
@@ -45,7 +46,7 @@ npm install
 npm test
 ```
 
-`npx expo start` arranca el proyecto, pero sin MP3/PNG de contenido la experiencia no es la de producción.
+`npx expo start` arranca el proyecto, pero sin los assets de contenido la experiencia no es la de Play Store.
 
 ---
 
@@ -68,22 +69,10 @@ npm test
 
 ---
 
-## Estructura
-
-```
-aprende-fonemas-portfolio/
-├── AprendeFonemasApp/   App Expo
-├── landing/             Web
-├── docs/                Guías
-├── LICENSE
-└── README.md
-```
-
----
-
 ## Licencia
 
-Todos los derechos reservados. Ver [LICENSE](LICENSE).  
-Puedes leer el código; no redistribuyas assets ni publiques un fork comercial sin permiso.
+Todos los derechos reservados. Ver [LICENSE](LICENSE).
+
+Puedes leer el código con fines de evaluación. No redistribuyas assets ni publiques un fork comercial sin permiso escrito.
 
 Contacto: aprendefonemas@gmail.com

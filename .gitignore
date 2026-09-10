@@ -22,7 +22,7 @@ credentials.json
 google-services.json
 credentials/
 
-# Assets de producto (repo público / portfolio)
+# Assets de producto (repo público / portfolio) — no versionar nunca
 AprendeFonemasApp/assets/audio/**
 !AprendeFonemasApp/assets/audio/README.md
 AprendeFonemasApp/assets/images/words/
@@ -32,6 +32,11 @@ landing/assets/videos/
 landing/assets/mascot-*.png
 *.mp3
 *.mp4
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
 
 # Logs y depuración
 *.log
@@ -43,9 +48,15 @@ yarn-error.*
 .DS_Store
 Thumbs.db
 
-# Variables de entorno locales
+# Variables de entorno y secretos locales
 .env
-.env*.local
+.env.*
+!.env.example
+secrets/
+*.secret
+google-play*.json
+service-account*.json
+eas-credentials*
 
 # TypeScript
 *.tsbuildinfo

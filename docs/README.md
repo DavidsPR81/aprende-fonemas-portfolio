@@ -1,6 +1,6 @@
 # Docs (portfolio)
 
-Guías de producto y lanzamiento. Material de archivo / ElevenLabs / capturas Play **no** se publica aquí.
+Notas de producto y lanzamiento. Material de archivo, ElevenLabs y capturas de Play Store **no** se publica aquí.
 
 | Documento | Uso |
 |-----------|-----|

@@ -1,0 +1,6 @@
+# Repo raíz: EAS sube todo el monorepo; excluir lo que no necesita el build.
+landing/
+docs/archivo/
+.git/
+*.md
+!AprendeFonemasApp/README.md

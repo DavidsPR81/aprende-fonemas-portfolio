@@ -1,0 +1,61 @@
+# Dependencias
+node_modules/
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+.metro-health-check*
+
+# Builds nativos y firmas
+*.orig.*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Credenciales de tienda / EAS (nunca versionar)
+credentials.json
+google-services.json
+credentials/
+
+# Assets de producto (repo público / portfolio)
+AprendeFonemasApp/assets/audio/**
+!AprendeFonemasApp/assets/audio/README.md
+AprendeFonemasApp/assets/images/words/
+AprendeFonemasApp/assets/images/sentences/
+AprendeFonemasApp/assets/images/mascot/
+landing/assets/videos/
+landing/assets/mascot-*.png
+*.mp3
+*.mp4
+
+# Logs y depuración
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno locales
+.env
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Local Netlify folder
+.netlify
+
+# Reports generados por scripts
+**/word-png-quality-report.json

@@ -1,0 +1,17 @@
+{
+  "name": "aprende-fonemas",
+  "version": "1.0.0",
+  "description": "Repositorio del proyecto Aprende Fonemas — app educativa de conciencia fonológica",
+  "private": true,
+  "scripts": {
+    "start": "npm start --prefix AprendeFonemasApp",
+    "convert": "md-to-pdf docs/archivo/Guia_Completa_App_Conciencia_Fonologica.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "md-to-pdf": "^5.2.5"
+  }
+}

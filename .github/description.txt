@@ -1,0 +1,1 @@
+App educativa de conciencia fonológica para niños de 3–7 años (React Native + Expo SDK 54).

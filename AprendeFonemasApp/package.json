@@ -1,0 +1,61 @@
+{
+  "name": "aprende-fonemas",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "test": "jest",
+    "postinstall": "patch-package",
+    "audio:placeholders": "node scripts/generate-audio-placeholders.js",
+    "audio:guion": "node scripts/generate-recording-script.js",
+    "audio:guion:pdf": "node scripts/generate-guion-pdf.js",
+    "content:inventory": "node scripts/generate-content-inventory.js",
+    "content:images": "node scripts/generate-image-inventory.js",
+    "content:images:registry": "node scripts/generate-image-registry.js",
+    "assets:icons": "node scripts/prepare-store-icons.js",
+    "assets:image-bg": "node scripts/unify-card-white-backgrounds.js",
+    "assets:images:compress": "node scripts/compress-card-images.js"
+  },
+  "dependencies": {
+    "@expo-google-fonts/andika": "^0.4.1",
+    "@expo-google-fonts/fredoka": "^0.4.1",
+    "@expo-google-fonts/nunito": "^0.4.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.9.26",
+    "babel-preset-expo": "~54.0.10",
+    "expo": "~54.0.36",
+    "expo-av": "~16.0.8",
+    "expo-font": "~14.0.12",
+    "expo-haptics": "~15.0.8",
+    "expo-linear-gradient": "~15.0.8",
+    "expo-speech": "~14.0.8",
+    "expo-splash-screen": "~31.0.13",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-iap": "^12.16.4",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "15.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "jest": "^29.7.0",
+    "jest-expo": "~54.0.0",
+    "patch-package": "^8.0.1"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "setupFiles": [
+      "./jest.setup.js"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ]
+  },
+  "private": true
+}

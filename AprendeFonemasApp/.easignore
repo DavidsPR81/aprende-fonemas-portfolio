@@ -1,0 +1,5 @@
+docs/
+scripts/
+__tests__/
+*.md
+!README.md

@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Aprende Fonemas",
+    "slug": "aprende-fonemas",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E8F4FC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.davidspr81.aprendefonemas"
+    },
+    "android": {
+      "package": "com.davidspr81.aprendefonemas",
+      "versionCode": 18,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E8F4FC"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "permissions": [
+        "com.android.vending.BILLING"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "./plugins/withPlayStoreIap.js",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#E8F4FC",
+          "image": "./assets/splash-icon-android.png",
+          "resizeMode": "contain",
+          "imageWidth": 240
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "771f6ff8-e208-4c72-92bf-21ac5e5fd895"
+      }
+    },
+    "owner": "davidspr81"
+  }
+}

@@ -24,10 +24,10 @@ El desarrollo, builds EAS y assets de producto viven en un **repositorio privado
 
 | Publicado aquí | No publicado (a propósito) |
 |----------------|----------------------------|
-| Código fuente, tests, docs de producto | Audios `.mp3` (voz / contenido comercial) |
+| Código fuente, tests, política de privacidad | Audios `.mp3` (voz / contenido comercial) |
 | Landing HTML/CSS | Ilustraciones de palabras, frases y mascota |
 | Icono / splash de marca | Keystores, `.env`, credenciales EAS / Play |
-| LICENSE | Historial del repo privado de producción |
+| LICENSE | Guías internas de lanzamiento / desarrollo |
 
 Los registries (`audioRegistry`, `imageRegistry`, `mascotRegistry`) son **stubs vacíos**. El `.gitignore` bloquea MP3/MP4 y carpetas de contenido si alguien intenta añadirlos por error.
 

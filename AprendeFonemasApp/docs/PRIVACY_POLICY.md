@@ -40,7 +40,7 @@ La app funciona **sin conexión** para jugar. Solo necesita internet para:
 
 Publicaremos cambios en esta página web. La fecha de actualización se modificará arriba.
 
-> **URL pública (Play Store):** desplegar `landing/privacidad.html` en Netlify. Ver `docs/GUIA_LANDING_NETLIFY.md`.
+> **URL pública (Play Store):** https://aprendefonemas.netlify.app/privacidad.html
 
 ## Contacto
 

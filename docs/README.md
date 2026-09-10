@@ -1,8 +1,5 @@
 # Docs (portfolio)
 
-Notas de producto y lanzamiento. Material de archivo, ElevenLabs y capturas de Play Store **no** se publica aquí.
+Solo documentación útil para quien revisa el código en público.
 
-| Documento | Uso |
-|-----------|-----|
-| [`GUIA_LANZAMIENTO_PRODUCCION.md`](GUIA_LANZAMIENTO_PRODUCCION.md) | Checklist operativa post-v18 |
-| App docs | [`../AprendeFonemasApp/docs/README.md`](../AprendeFonemasApp/docs/README.md) |
+Las guías de lanzamiento, inventarios, checklists de Play y notas de producción viven en el **repo privado**.

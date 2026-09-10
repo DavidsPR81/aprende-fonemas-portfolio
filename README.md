@@ -38,7 +38,9 @@ Los registries (`audioRegistry`, `imageRegistry`, `mascotRegistry`) son **stubs 
 - `AprendeFonemasApp/src/` — pantallas, motor de ejercicios, progreso, IAP Premium
 - `AprendeFonemasApp/__tests__/` — tests de contenido y calidad pedagógica
 - `landing/` — web de producto
-- `docs/` — notas de lanzamiento
+- `AprendeFonemasApp/docs/PRIVACY_POLICY.md` — política de privacidad
+
+Las guías internas de lanzamiento y producción **no** están en este repo.
 
 ```bash
 cd AprendeFonemasApp

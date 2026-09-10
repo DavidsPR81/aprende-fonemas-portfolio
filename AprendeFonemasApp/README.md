@@ -12,7 +12,7 @@ npm install
 npm test
 ```
 
-Sin los assets de producto este clon no es un build jugable completo. Sirve para leer arquitectura y tests de contenido.
+Sin los assets de producto este clon no es un build jugable completo. Sirve para leer arquitectura y tests.
 
 ## Carpetas útiles
 
@@ -24,4 +24,4 @@ Sin los assets de producto este clon no es un build jugable completo. Sirve para
 | `src/utils/` | Constructor de ejercicios, progreso |
 | `__tests__/` | Calidad de ejercicios y layout |
 
-Docs: [`docs/README.md`](docs/README.md).
+Privacidad: [`docs/PRIVACY_POLICY.md`](docs/PRIVACY_POLICY.md).
